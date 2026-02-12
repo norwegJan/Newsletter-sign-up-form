@@ -94,7 +94,7 @@ li {
 /* ===== MOBILE ===== */
 
 body {
-  max-width: 400px;
+  max-width: 425px;
   color: hsl(234, 29%, 20%);
   background-color: hsl(235, 18%, 26%);
   margin: auto;
@@ -186,6 +186,20 @@ input:focus {
 
 #email-confirm {
   font-weight: 700;
+}
+
+/* ===== TABLET ===== */
+
+@media (min-width: 768px) {
+
+
+}
+
+/* ===== DESKTOP ===== */
+
+@media (min-width: 1024) {
+
+
 }
 
 .hidden {

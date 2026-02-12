@@ -27,11 +27,21 @@
   <body>
     <main>
       <section id="form-container">
-        <img
-          class="form-image"
-          src="./assets/images/illustration-sign-up-mobile.svg"
-          alt=""
-        />
+        <picture>
+          <source
+            media="(min-width: 1024px)"
+            srcset="./assets/images/illustration-sign-up-desktop.svg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/images/illustration-sign-up-tablet.svg"
+          />
+          <img
+            class="form-image"
+            src="./assets/images/illustration-sign-up-mobile.svg"
+            alt="vector illustration of a tablet screen and a browser window"
+          />
+        </picture>
         <form id="main-form" action=" /" method="get" novalidate>
           <div class="form-text-submit">
             <div class="form-text">
