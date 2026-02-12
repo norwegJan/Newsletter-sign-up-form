@@ -34,10 +34,16 @@ picture {
   margin: auto;
 }
 
-#form-container, #success-container {
+#form-container,
+#success-container {
   margin-bottom: 3rem;
   max-width: 100%;
   background-color: white;
+}
+
+.form-image {
+  margin: 0;
+  width: 100%;
 }
 
 #success-container {
@@ -80,7 +86,8 @@ li span {
   bottom: 4px;
 }
 
-p, li {
+p,
+li {
   line-height: 20px;
 }
 
@@ -96,7 +103,6 @@ body {
 .form-text-submit {
   padding: 1.6rem;
   padding-bottom: 4rem;
-  max-width: 375px;
 }
 
 label {
@@ -107,7 +113,7 @@ label {
 }
 
 label span {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 input,
@@ -150,7 +156,7 @@ input:focus {
   color: hsl(4, 100%, 67%);
 }
 
-.input-control.error-state input  {
+.input-control.error-state input {
   border: 1px solid hsl(4, 100%, 67%);
   background-color: hsl(5, 86%, 94%);
   color: hsl(4, 100%, 67%);
