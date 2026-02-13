@@ -14,7 +14,7 @@ function checkInput() {
   const emailValue = email.value.trim();
 
   if (emailValue === "") {
-    setError(email, "Email cannot be blank");
+    setError(email, "Email required");
   } else if (!isEmail(emailValue)) {
     setError(email, "Valid email required");
   } else {
